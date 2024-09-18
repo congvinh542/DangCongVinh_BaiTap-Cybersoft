@@ -238,3 +238,30 @@ double vnd = 24643;
 
 Console.WriteLine($"Số tiền {usd} sau khi chuyển đổi sang tiền VNĐ: {usd * vnd}đ");*/
 #endregion
+
+#region BaiTap06
+/*Console.WriteLine("****Tính số dư sau khi rút tiền****");
+Console.WriteLine("Mời bạn nhập số dư tài khoảng hiện tại");
+double balance = double.Parse(Console.ReadLine());
+Console.WriteLine($"Số dư khả dụng của bạn là: {balance}vnđ. Bạn muốn rút bao nhiêu");
+double price = double.Parse(Console.ReadLine());
+Console.WriteLine($"Số dư khả dụng của bạn là sau khi rút {price} là: {balance - price}vnđ");*/
+#endregion
+
+#region BaiTap07
+/*Console.WriteLine("****Tính tốc độ trung bình****");
+Console.WriteLine("Mời bạn nhập quảng đường đã đi (VD: 1.7km, 0.90m)"); 
+double quangDuong = double.Parse(Console.ReadLine());
+
+Console.WriteLine($"Mời bạn nhập vào thời gian đã đi đơn vị giờ (VD: 1 giờ, 0.50 phút");
+
+double time = double.Parse(Console.ReadLine());
+if (time < 1)
+{
+    time *= 100;
+    time = Math.Round(time / 60, 2);
+}
+
+double result = Math.Round(quangDuong / (time), 2);
+Console.WriteLine($"Tốc độ trung bình của bạn là: {result}km");*/
+#endregion
